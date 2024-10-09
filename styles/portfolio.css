@@ -27,8 +27,10 @@
 
 
 /* header */
-.header {
-    background-image: url("../images/developer.png");
+.header-bg {
+    background-image: url("../images/developer.png"), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 
